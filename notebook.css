@@ -11,6 +11,39 @@ html {
   font-family: 'average', serif;
 }
 
+.center {
+  margin: auto;
+  position:fixed;
+  top: 55px;
+  right: 5px;
+  left: 5px;
+  width: 95%;
+  min-height: auto;
+  background-color:white;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bottom {
+  margin: auto;
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+  min-height: 150px;
+  padding: 10px;
+}
+
 #mainnav {
   position: absolute; 
   font-family: 'Montserrat Alternates', sans-serif;
@@ -38,7 +71,7 @@ html, body, .hero {
 .hero {
   margin-top: 0;
   width: 100%;
-  min-height: 700px;
+  min-height: 620px;
   background-image: linear-gradient(to bottom, #d59254, #cf7693);
 }
 
@@ -51,7 +84,22 @@ h1 {
   color: $bodyFontColor;
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 28%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}  
+
+h2 {
+  margin-top: 0;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: $bodyFontColor;
+  width: 100%;
+  position: absolute;
+  top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -80,7 +128,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   margin-top: 0;
   background-color: #d59254;
