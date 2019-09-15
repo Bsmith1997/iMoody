@@ -1,4 +1,10 @@
 
+body {
+margin: 0px;
+margin-top: -25px;
+padding: 0px;
+}
+
 $bodyFontColor : #fff;
 
 html {
@@ -30,12 +36,14 @@ html, body, .hero {
 }
  
 .hero {
+  margin-top: 0;
   width: 100%;
-  min-height: 600px;
+  min-height: 700px;
   background-image: linear-gradient(to bottom, #d59254, #cf7693);
 }
 
 h1 {
+  margin-top: 0;
   font-size: 5em;
   text-align: center;
   font-weight: 700;
@@ -50,20 +58,23 @@ h1 {
 }  
 
 ul {
+  margin-top: 0;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: white
 }
 
 li {
+  margin-top: 0;
   float: left;
 }
 
 li a {
+  margin-top: 0;
   display: block;
-  color: black;
+  color: #333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -71,7 +82,8 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  margin-top: 0;
+  background-color: #d59254;
 }
 
 .active {
