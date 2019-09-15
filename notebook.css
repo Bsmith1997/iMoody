@@ -23,16 +23,6 @@ html {
   }
 }
 
-.hamb {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 2.5em;
-  z-index: 1;
-  a {
-    color: $bodyFontColor;
-    text-decoration: none;
-  }
 }
 
 html, body, .hero {
@@ -44,6 +34,7 @@ html, body, .hero {
   min-height: 600px;
   background-image: linear-gradient(to bottom, #d59254, #cf7693);
 }
+
 h1 {
   font-size: 5em;
   text-align: center;
@@ -58,23 +49,12 @@ h1 {
   transform: translate(-50%, -50%);
 }  
 
-#bubble {
-  width: 100%;
-  height: 100%;
-  opacity: .9;
-  position: fixed;
-  display: none;
-  z-index: 1;
-  background: rgba(0, 0, 0, .5);
-}
-
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 li {
@@ -83,7 +63,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
