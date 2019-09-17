@@ -1,4 +1,4 @@
 AuthType Basic  
 AuthName "HCI Project access restricted"
-AuthUserFile /passwords/.htpasswd
+AuthUserFile /passwords
 require valid-user
