@@ -13,7 +13,7 @@ html {
 
 .center {
   margin: auto;
-  position:static;
+  position:absolute;
   top: 55px;
   right: 5px;
   left: 5px;
@@ -71,7 +71,7 @@ html, body, .hero {
 .hero {
   margin-top: 0;
   width: 100%;
-  min-height: 2000px;
+  min-height: 5000px;
   background-image: linear-gradient(to bottom, #d59254, #cf7693);
 }
 
