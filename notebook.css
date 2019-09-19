@@ -64,6 +64,18 @@ html {
 
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 html, body, .hero {
   height: 100%;
 }
@@ -71,7 +83,7 @@ html, body, .hero {
 .hero {
   margin-top: 0;
   width: 100%;
-  min-height: 6000px;
+  min-height: 7000px;
   background-image: linear-gradient(to bottom, #d59254, #cf7693);
 }
 
