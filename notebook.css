@@ -83,7 +83,7 @@ html, body, .hero {
 .hero {
   margin-top: 0;
   width: 100%;
-  min-height: 9700px;
+  min-height: 15700px;
   background-image: linear-gradient(to bottom, #d59254, #cf7693);
 }
 
